@@ -3,7 +3,7 @@ import { Copyright } from 'lucide-react';
 // import Typography from './Component/general/typography';
 import Typography from '../general/typography';
 // import Link from '../Navigation/link';
-import Link from '../Navigation/link';
+import Link from '../navigation/link';
 import { EXTERNAL_LINKS } from '../lib/data';
 
 const Footer = () => {
