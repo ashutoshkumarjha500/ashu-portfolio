@@ -23,15 +23,15 @@ createRoot(document.getElementById('root')).render(
     <div className="font-inter bg-gray text-gray-600 antialiased">
       {/* Your components here */}
       {/* <App></App> */}
-    <Header></Header>
+    {/* <Header></Header> */}
     <HeroSection></HeroSection>
-    <AboutMeSection></AboutMeSection>
+    {/* <AboutMeSection></AboutMeSection> */}
     <SkillsSection></SkillsSection>
     <ExperienceSection></ExperienceSection>
     <WorkSection></WorkSection>
     <TestimonialsSection></TestimonialsSection>
     <ContactSection></ContactSection>
-    <Footer></Footer>
+    {/* <Footer></Footer> */}
     </div>
     
     
