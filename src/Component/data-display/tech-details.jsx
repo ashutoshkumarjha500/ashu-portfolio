@@ -1,4 +1,4 @@
-"use client";
+// "use client";
 
 import Typography from "../general/typography";
 import Link from "../navigation/link";

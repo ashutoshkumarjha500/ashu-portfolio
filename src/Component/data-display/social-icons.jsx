@@ -1,4 +1,4 @@
-'use client';
+// 'use client';
 
 import { SOCIAL_LINKS } from '../lib/data';
 import IconButton from '../general/icon-button';
