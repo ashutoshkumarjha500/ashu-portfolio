@@ -8,7 +8,7 @@ import { NAV_LINKS } from '../lib/data';
 import { mergeClasses } from '../lib/utils';
 import useWindowSize from '../hooks/use-window-size';
 import useScroll from '../hooks/use-scroll';
-import Link from '../navigation/link';
+import Link from '../Navigation/link';
 import ThemeSwitcher from '../general/theme-switcher';
 import IconButton from '../general/icon-button';
 import DownloadCV from '../general/download-cv';
