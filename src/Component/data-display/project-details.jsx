@@ -6,7 +6,7 @@ import { ExternalLink } from 'lucide-react';
 
 import { mergeClasses } from '../lib/utils';
 import Typography from '../general/typography';
-import Link from '../navigation/link';
+import Link from '../navigation-nn/link.jsx';
 import Tag from '../data-display/tag';
 import Card from '../layout/card';
 

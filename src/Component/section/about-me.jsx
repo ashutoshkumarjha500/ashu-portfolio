@@ -1,6 +1,6 @@
 import React from 'react'; // Don't forget to import React
 // import SagarFullPose from '/public/images/sagar-full-pose.jpg';
-import Link from '../navigation/link';
+import Link from '../navigation-nn/link.jsx';
 import SagarFullPose from '../images/DSC_0625.jpg'
 import Tag from '../data-display/tag';
 import Container from '../layout/container';

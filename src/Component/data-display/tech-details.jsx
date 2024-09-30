@@ -1,7 +1,7 @@
 // "use client";
 
 import Typography from "../general/typography";
-import Link from "../navigation/link";
+import Link from "../navigation-nn/link.jsx";
 import ImageWrapper from "../data-display/image-wrapper";
 
 const TechDetailItem = ({ url, logo, darkModeLogo, label }) => {
