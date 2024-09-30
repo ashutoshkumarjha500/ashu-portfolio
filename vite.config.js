@@ -9,7 +9,14 @@ export default defineConfig({
       external: ['clsx'], // Mark 'clsx' as an external dependency
     },
   },
+  resolve: {
+    alias: {
+      '@': '/src', // Aliasing for better path resolution
+    },
+  },
 });
+
+
 
 
 // import { defineConfig } from 'vite'
