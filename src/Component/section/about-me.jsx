@@ -4,6 +4,7 @@ import SagarFullPose from '../images/DSC_0625.jpg'
 import Tag from '../data-display/tag';
 import Container from '../layout/container';
 import Typography from '../general/typography';
+// import Link from '../navigation/link';
 import Link from '../navigation/link';
 import { EXTERNAL_LINKS } from '../lib/data';
 

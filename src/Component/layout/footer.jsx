@@ -2,8 +2,7 @@ import { Copyright } from 'lucide-react';
 
 // import Typography from './Component/general/typography';
 import Typography from '../general/typography';
-// import Link from '../navigation/link';
-import Link from '../navigation/link'
+import Link from '../navigation/link';
 import { EXTERNAL_LINKS } from '../lib/data';
 
 const Footer = () => {
@@ -17,7 +16,7 @@ const Footer = () => {
             noCustomization
             externalLink
             withUnderline
-            // href={EXTERNAL_LINKS.FIGMA_FILE}
+            href={EXTERNAL_LINKS.FIGMA_FILE}
             className="dark:hover:text-gray-600"
           >
             Designed
@@ -27,7 +26,7 @@ const Footer = () => {
             noCustomization
             externalLink
             withUnderline
-            // href={EXTERNAL_LINKS.GITHUB_REPO}
+            href={EXTERNAL_LINKS.GITHUB_REPO}
             className="dark:hover:text-gray-600"
 
           >
