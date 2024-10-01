@@ -1,4 +1,4 @@
-import { Github, Twitter, Figma, Facebook, Instagram } from 'lucide-react';
+import { Github, Twitter, Figma, Facebook, Instagram, Linkedin } from 'lucide-react';
 
 // import LogoJavascript from '/images/logos/icon-javascript.svg';
 import LogoJavascript from '../images/logos/icon-javascript.svg'
@@ -37,7 +37,7 @@ import AvatarDummy from '../images/avatar-dummy.svg';
 
 // External links
 export const EXTERNAL_LINKS = {
-  GITHUB: 'https://github.com/shahsagarm',
+  GITHUB: 'https://github.com/ashutoshkumarjha500',
   GITHUB_REPO: 'https://github.com/shahsagarm/sagarshah.dev',
   TWITTER: 'https://twitter.com/shahsagarm',
   FIGMA: 'https://www.figma.com/@shahsagarm',
@@ -69,19 +69,23 @@ export const NAV_LINKS = [
 export const SOCIAL_LINKS = [
   {
     icon: Github,
-    url: 'https://github.com/shahsagarm',
+    url: 'https://github.com/ashutoshkumarjha500',
   },
   {
-    icon: Twitter,
-    url: 'https://twitter.com/shahsagarm',
+    icon: Linkedin,
+    url: 'https://www.linkedin.com/in/ashutosh-kumar-jha-234304225',
   },
+  // {
+  //   icon: Twitter,
+  //   url: 'https://twitter.com/shahsagarm',
+  // },
   // {
   //   icon: Figma,
   //   url: 'https://www.figma.com/@shahsagarm',
   // },
   {
     icon: Instagram,
-    // url: 'https://www.figma.com/@shahsagarm',
+    url: 'https://www.instagram.com/__a___s___h___u__?igsh=MTJtc2VkcXZtNGYzYw==',
   },
 ];
 

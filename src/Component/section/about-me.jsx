@@ -41,7 +41,7 @@ const AboutMeSection = () => {
               noCustomization
               externalLink
               withUnderline
-              href={EXTERNAL_LINKS.FIGMA}
+              // href={EXTERNAL_LINKS.FIGMA}
             className="dark:hover:text-gray-600"
 
             >
@@ -74,7 +74,7 @@ const AboutMeSection = () => {
               noCustomization
               externalLink
               withUnderline
-              href={EXTERNAL_LINKS.TWITTER}
+              // href={EXTERNAL_LINKS.TWITTER}
             className="dark:hover:text-gray-600"
 
             >
@@ -104,7 +104,7 @@ const AboutMeSection = () => {
             </ul>
             <ul className="flex list-inside list-disc flex-col gap-2">
               <Typography component="li">Avid learner</Typography>
-              <Typography component="li">Quick Learner</Typography>
+              {/* <Typography component="li">Quick Learner</Typography> */}
               {/* <Typography component="li">Aspiring indie hacker</Typography> */}
             </ul>
           </div>
