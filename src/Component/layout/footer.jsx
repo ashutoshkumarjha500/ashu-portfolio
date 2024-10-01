@@ -16,7 +16,7 @@ const Footer = () => {
             noCustomization
             externalLink
             withUnderline
-            href={EXTERNAL_LINKS.FIGMA_FILE}
+            // href={EXTERNAL_LINKS.FIGMA_FILE}
             className="dark:hover:text-gray-600"
           >
             Designed
@@ -26,7 +26,7 @@ const Footer = () => {
             noCustomization
             externalLink
             withUnderline
-            href={EXTERNAL_LINKS.GITHUB_REPO}
+            // href={EXTERNAL_LINKS.GITHUB_REPO}
             className="dark:hover:text-gray-600"
 
           >
