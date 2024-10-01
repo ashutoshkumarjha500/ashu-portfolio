@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
-      external: ['clsx'], // Mark 'clsx' as an external dependency
+      // external: ['clsx'], // Mark 'clsx' as an external dependency
     },
   },
   resolve: {
