@@ -10,4 +10,5 @@ const DownloadCV = () => {
   );
 };
 
+
 export default DownloadCV;
