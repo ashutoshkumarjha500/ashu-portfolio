@@ -27,9 +27,9 @@ createRoot(document.getElementById('root')).render(
     <HeroSection></HeroSection>
     <AboutMeSection></AboutMeSection>
     <SkillsSection></SkillsSection>
-    <ExperienceSection></ExperienceSection>
+    {/* <ExperienceSection></ExperienceSection> */}
     <WorkSection></WorkSection>
-    <TestimonialsSection></TestimonialsSection>
+    {/* <TestimonialsSection></TestimonialsSection> */}
     <ContactSection></ContactSection>
     <Footer></Footer>
     </div>

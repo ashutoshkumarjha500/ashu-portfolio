@@ -6,7 +6,7 @@ import Container from '..//layout/container';
 
 const WorkSection = () => {
   return (
-    <Container id="work">
+    <Container id="work" className="bg-gray-50 dark:bg-gray-900">
       <div className="flex flex-col items-center gap-4">
         <div className="self-center">
           <Tag label="Work" />

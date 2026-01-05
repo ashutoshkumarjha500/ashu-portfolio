@@ -1,67 +1,82 @@
-import { Github, Twitter, Figma, Facebook, Instagram, Linkedin } from 'lucide-react';
+import {
+  Github,
+  Twitter,
+  Figma,
+  Facebook,
+  Instagram,
+  Linkedin,
+  MessageCircle,
+} from "lucide-react";
 
 // import LogoJavascript from '/images/logos/icon-javascript.svg';
-import LogoJavascript from '../images/logos/icon-javascript.svg'
-import LogoTypescript from '../images/logos/icon-typescript.svg';
-import LogoReact from '../images/logos/icon-react.svg';
-import LogoNextjs from '../images/logos/icon-nextjs.svg';
-import LogoNodejs from '../images/logos/icon-nodejs.svg';
-import LogoExpress from '../images/logos/icon-express.svg';
-import LogoExpressLight from '../images/logos/icon-express-light.svg';
-import LogoNest from '../images/logos/icon-nest.svg';
-import LogoSocket from '../images/logos/icon-socket.svg';
-import LogoSocketLight from '../images/logos/icon-socket-light.svg';
-import LogoPostgreSQL from '../images/logos/icon-postgresql.svg';
-import LogoMongoDB from '../images/logos/icon-mongodb.svg';
-import LogoSass from '../images/logos/icon-sass.svg';
-import LogoTailwindcss from '../images/logos/icon-tailwindcss.svg';
-import LogoFigma from '../images/logos/icon-figma.svg';
-import LogoCypress from '../images/logos/icon-cypress.svg';
-import LogoCypressLight from '../images/logos/icon-cypress-light.svg';
-import LogoStorybook from '../images/logos/icon-storybook.svg';
-import LogoGit from '../images/logos/icon-git.svg';
+import LogoJavascript from "../images/logos/icon-javascript.svg";
+import LogoTypescript from "../images/logos/icon-typescript.svg";
+import LogoReact from "../images/logos/icon-react.svg";
+import LogoNextjs from "../images/logos/icon-nextjs.svg";
+import LogoNodejs from "../images/logos/icon-nodejs.svg";
+import LogoExpress from "../images/logos/icon-express.svg";
+import LogoExpressLight from "../images/logos/icon-express-light.svg";
+import LogoNest from "../images/logos/icon-nest.svg";
+import LogoSocket from "../images/logos/icon-socket.svg";
+import LogoSocketLight from "../images/logos/icon-socket-light.svg";
+import LogoPostgreSQL from "../images/logos/icon-postgresql.svg";
+import LogoMongoDB from "../images/logos/icon-mongodb.svg";
+import LogoSass from "../images/logos/icon-sass.svg";
+import LogoTailwindcss from "../images/logos/icon-tailwindcss.svg";
+import LogoFigma from "../images/logos/icon-figma.svg";
+import LogoCypress from "../images/logos/icon-cypress.svg";
+import LogoCypressLight from "../images/logos/icon-cypress-light.svg";
+import LogoStorybook from "../images/logos/icon-storybook.svg";
+import LogoGit from "../images/logos/icon-git.svg";
+import LogoRedux from "../images/logos/icons8-redux.svg";
+import LogoJwt from "../images/logos/icons8-json-web-token.svg";
+import LogoPostman from "../images/logos/icons8-postman-inc-24.png";
+import LogoCloudinary from "../images/logos/cloudinary.svg";
+import LogoNetlify from "../images/logos/icons8-netlify.svg";
 
-import LogoUpwork from '../images/logos/logo-upwork.svg';
-import LogoGreenApex from '../images/logos/logo-greenapex.svg';
-import LogoGreenApexLight from '../images/logos/logo-greenapex-light.svg';
-import LogoDotnpixel from '../images/logos/logo-dotnpixel.svg';
-import LogoDotnpixelLight from '../images/logos/logo-dotnpixel-light.svg';
+import LogoUpwork from "../images/logos/logo-upwork.svg";
+import LogoGreenApex from "../images/logos/logo-greenapex.svg";
+import LogoGreenApexLight from "../images/logos/logo-greenapex-light.svg";
+import LogoDotnpixel from "../images/logos/logo-dotnpixel.svg";
+import LogoDotnpixelLight from "../images/logos/logo-dotnpixel-light.svg";
+import ProjectMediCareHub from "../images/image.png";
+import ProjectTravelNest from "../images/TravelNest.png";
 
-import ProjectFiskil from '../images/project-fiskil.png';
-import ProjectWingie from '../images/project-wingie.png';
-import ProjectPepehousing from '../images/project-pepehousing.png';
+import ProjectFiskil from "../images/project-fiskil.png";
+import ProjectWingie from "../images/project-wingie.png";
+import ProjectPepehousing from "../images/project-pepehousing.png";
 
-import AvatarKrisztian from '../images/avatar-krisztian.png';
-import AvatarEugen from '../images/avatar-eugen.png';
-import AvatarDummy from '../images/avatar-dummy.svg';
+import AvatarKrisztian from "../images/avatar-krisztian.png";
+import AvatarEugen from "../images/avatar-eugen.png";
+import AvatarDummy from "../images/avatar-dummy.svg";
 
 // External links
 export const EXTERNAL_LINKS = {
-  GITHUB: 'https://github.com/ashutoshkumarjha500',
-  GITHUB_REPO: 'https://github.com/shahsagarm/sagarshah.dev',
-  TWITTER: 'https://twitter.com/shahsagarm',
-  FIGMA: 'https://www.figma.com/@shahsagarm',
+  GITHUB: "https://github.com/ashutoshkumarjha500",
+  GITHUB_REPO: "https://github.com/shahsagarm/sagarshah.dev",
+  TWITTER: "https://twitter.com/shahsagarm",
+  FIGMA: "https://www.figma.com/@shahsagarm",
   FIGMA_FILE:
-    'https://www.figma.com/community/file/1262992249991763120/Personal-Portfolio-Website-Template-%7C-Mobile-%26-Desktop',
+    "https://www.figma.com/community/file/1262992249991763120/Personal-Portfolio-Website-Template-%7C-Mobile-%26-Desktop",
 };
 
 // Navigation links
 export const NAV_LINKS = [
   {
-    label: 'About',
-    href: '#about',
+    label: "About",
+    href: "#about",
   },
   {
-    label: 'Work',
-    href: '#work',
+    label: "Work",
+    href: "#work",
   },
   {
-    label: 'Testimonials',
-    href: '#testimonials',
+    label: "Testimonials",
+    href: "#testimonials",
   },
   {
-    label: 'Contact',
-    href: '#contact',
+    label: "Contact",
+    href: "#contact",
   },
 ];
 
@@ -69,11 +84,11 @@ export const NAV_LINKS = [
 export const SOCIAL_LINKS = [
   {
     icon: Github,
-    url: 'https://github.com/ashutoshkumarjha500',
+    url: "https://github.com/ashutoshkumarjha500",
   },
   {
     icon: Linkedin,
-    url: 'https://www.linkedin.com/in/ashutosh-kumar-jha-234304225',
+    url: "https://www.linkedin.com/in/ashutosh-kumar-jha-234304225",
   },
   // {
   //   icon: Twitter,
@@ -84,192 +99,355 @@ export const SOCIAL_LINKS = [
   //   url: 'https://www.figma.com/@shahsagarm',
   // },
   {
+    icon: MessageCircle,
+    url: "https://wa.me/+918969823422",
+  },
+  {
     icon: Instagram,
-    url: 'https://www.instagram.com/__a___s___h___u__?igsh=MTJtc2VkcXZtNGYzYw==',
+    url: "https://www.instagram.com/__a___s___h___u__?igsh=MTJtc2VkcXZtNGYzYw==",
   },
 ];
 
 // Technologies
+// export const TECHNOLOGIES = [
+//   {
+//     label: 'Javascript',
+//     logo: LogoJavascript,
+//     url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
+//   },
+//   {
+//     label: 'Typescript',
+//     logo: LogoTypescript,
+//     url: 'https://www.typescriptlang.org/',
+//   },
+//   {
+//     label: 'React',
+//     logo: LogoReact,
+//     url: 'https://react.dev/',
+//   },
+//   {
+//     label: 'Next.js',
+//     logo: LogoNextjs,
+//     url: 'https://nextjs.org/',
+//   },
+//   {
+//     label: 'Node.js',
+//     logo: LogoNodejs,
+//     url: 'https://nodejs.org/en',
+//   },
+//   {
+//     label: 'Express.js',
+//     logo: LogoExpress,
+//     darkModeLogo: LogoExpressLight,
+//     url: 'https://expressjs.com/',
+//   },
+//   // {
+//   //   label: 'Nest.js',
+//   //   logo: LogoNest,
+//   //   url: 'https://nestjs.com/',
+//   // },
+//   {
+//     label: 'Socket.io',
+//     logo: LogoSocket,
+//     darkModeLogo: LogoSocketLight,
+//     url: 'https://socket.io/',
+//   },
+//   // {
+//   //   label: 'PostgreSQL',
+//   //   logo: LogoPostgreSQL,
+//   //   url: 'https://www.postgresql.org/',
+//   // },
+//   {
+//     label: 'MongoDB',
+//     logo: LogoMongoDB,
+//     url: 'https://www.mongodb.com/',
+//   },
+//   // {
+//   //   label: 'Sass/Scss',
+//   //   logo: LogoSass,
+//   //   url: 'https://sass-lang.com/',
+//   // },
+//   {
+//     label: 'Tailwindcss',
+//     logo: LogoTailwindcss,
+//     url: 'https://tailwindcss.com/',
+//   },
+//   // {
+//   //   label: 'Figma',
+//   //   logo: LogoFigma,
+//   //   url: 'https://www.figma.com/',
+//   // },
+//   // {
+//   //   label: 'Cypress',
+//   //   logo: LogoCypress,
+//   //   darkModeLogo: LogoCypressLight,
+//   //   url: 'https://www.cypress.io/',
+//   // },
+//   // {
+//   //   label: 'Storybook',
+//   //   logo: LogoStorybook,
+//   //   url: 'https://storybook.js.org/',
+//   // },
+//   {
+//     label: 'Git',
+//     logo: LogoGit,
+//     url: 'https://git-scm.com/',
+//   },
+// ];
+
+// Technologies
 export const TECHNOLOGIES = [
   {
-    label: 'Javascript',
+    label: "JavaScript",
     logo: LogoJavascript,
-    url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
+    url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
   },
-  // {
-  //   label: 'Typescript',
-  //   logo: LogoTypescript,
-  //   url: 'https://www.typescriptlang.org/',
-  // },
   {
-    label: 'React',
+    label: "TypeScript",
+    logo: LogoTypescript,
+    url: "https://www.typescriptlang.org/",
+  },
+  {
+    label: "React.js",
     logo: LogoReact,
-    url: 'https://react.dev/',
+    url: "https://react.dev/",
   },
-  // {
-  //   label: 'Next.js',
-  //   logo: LogoNextjs,
-  //   url: 'https://nextjs.org/',
-  // },
   {
-    label: 'Node.js',
+    label: "Node.js",
     logo: LogoNodejs,
-    url: 'https://nodejs.org/en',
+    url: "https://nodejs.org/en",
   },
   {
-    label: 'Express.js',
+    label: "Express.js",
     logo: LogoExpress,
     darkModeLogo: LogoExpressLight,
-    url: 'https://expressjs.com/',
+    url: "https://expressjs.com/",
   },
-  // {
-  //   label: 'Nest.js',
-  //   logo: LogoNest,
-  //   url: 'https://nestjs.com/',
-  // },
-  // {
-  //   label: 'Socket.io',
-  //   logo: LogoSocket,
-  //   darkModeLogo: LogoSocketLight,
-  //   url: 'https://socket.io/',
-  // },
-  // {
-  //   label: 'PostgreSQL',
-  //   logo: LogoPostgreSQL,
-  //   url: 'https://www.postgresql.org/',
-  // },
   {
-    label: 'MongoDB',
+    label: "MongoDB",
     logo: LogoMongoDB,
-    url: 'https://www.mongodb.com/',
+    url: "https://www.mongodb.com/",
   },
-  // {
-  //   label: 'Sass/Scss',
-  //   logo: LogoSass,
-  //   url: 'https://sass-lang.com/',
-  // },
   {
-    label: 'Tailwindcss',
+    label: "Redux Toolkit",
+    logo: LogoRedux,
+    url: "https://redux-toolkit.js.org/",
+  },
+  {
+    label: "JWT Authentication",
+    logo: LogoJwt,
+    url: "https://jwt.io/",
+  },
+  {
+    label: "Postman",
+    logo: LogoPostman,
+    url: "https://www.postman.com/",
+  },
+  {
+    label: "Tailwind CSS",
     logo: LogoTailwindcss,
-    url: 'https://tailwindcss.com/',
+    url: "https://tailwindcss.com/",
   },
   {
-    label: 'Figma',
-    logo: LogoFigma,
-    url: 'https://www.figma.com/',
+    label: "Cloudinary",
+    logo: LogoCloudinary,
+    url: "https://cloudinary.com/",
   },
   // {
-  //   label: 'Cypress',
-  //   logo: LogoCypress,
-  //   darkModeLogo: LogoCypressLight,
-  //   url: 'https://www.cypress.io/',
-  // },
-  // {
-  //   label: 'Storybook',
-  //   logo: LogoStorybook,
-  //   url: 'https://storybook.js.org/',
+  //   label: 'Firebase',
+  // logo: LogoFirebase,
+  //   url: 'https://firebase.google.com/',
   // },
   {
-    label: 'Git',
+    label: "Socket.io",
+    logo: LogoSocket,
+    darkModeLogo: LogoSocketLight,
+    url: "https://socket.io/",
+  },
+  {
+    label: "Git",
     logo: LogoGit,
-    url: 'https://git-scm.com/',
+    url: "https://git-scm.com/",
   },
+  // {
+  //   label: 'Vercel',
+  //   logo: LogoVercel,
+  //   url: 'https://vercel.com/',
+  // },
+  {
+    label: "Netlify",
+    logo: LogoNetlify,
+    url: "https://www.netlify.com/",
+  },
+  // {
+  //   label: "Render",
+  //   // logo: LogoRender,
+  //   url: "https://render.com/",
+  // },
 ];
 
 // Experience details
 export const EXPERIENCES = [
   {
     logo: LogoUpwork,
-    logoAlt: 'Upwork logo',
-    position: 'Independent Freelancer',
+    logoAlt: "Upwork logo",
+    position: "Independent Freelancer",
     startDate: new Date(2021, 10),
     currentlyWorkHere: true,
     summary: [
-      'Worked for various clients like Fiskil, Shosho, Crowe MacKay LLP.',
-      'Worked with a variety of technologies, including React, Next.js, Typescript, Express.js, PostgreSQL, Tailwindcss, Mui, Firebase, Storybook, Cypress, and others.',
+      "Worked for various clients like Fiskil, Shosho, Crowe MacKay LLP.",
+      "Worked with a variety of technologies, including React, Next.js, Typescript, Express.js, PostgreSQL, Tailwindcss, Mui, Firebase, Storybook, Cypress, and others.",
     ],
   },
   {
     logo: LogoGreenApex,
     darkModeLogo: LogoGreenApexLight,
-    logoAlt: 'Greenapex logo',
-    position: 'Team Lead',
+    logoAlt: "Greenapex logo",
+    position: "Team Lead",
     startDate: new Date(2017, 6),
     endDate: new Date(2021, 9),
     summary: [
-      'Acted as team lead in different projects.',
-      'Brainstormed new ideas & gathered requirements for internal projects.',
-      'Designed architecture of different projects (frontend + backend).',
-      'Worked on enterprise-level projects for a variety of clients.',
-      'Handled sprint planning & task distribution.',
+      "Acted as team lead in different projects.",
+      "Brainstormed new ideas & gathered requirements for internal projects.",
+      "Designed architecture of different projects (frontend + backend).",
+      "Worked on enterprise-level projects for a variety of clients.",
+      "Handled sprint planning & task distribution.",
     ],
   },
   {
     logo: LogoDotnpixel,
     darkModeLogo: LogoDotnpixelLight,
-    logoAlt: 'Dotnpixel logo',
-    position: 'Full Stack Developer',
+    logoAlt: "Dotnpixel logo",
+    position: "Full Stack Developer",
     startDate: new Date(2015, 11),
     endDate: new Date(2017, 4),
-    summary: ['Worked as a full stack developer (React / Laravel).'],
+    summary: ["Worked as a full stack developer (React / Laravel)."],
   },
 ];
 
 // Project details
+// export const PROJECTS = [
+//   {
+//     name: "Wingie",
+//     description:
+//       "A platform for comparing and finding affordable flights, as well as booking and purchasing tickets safely and easily in a few simple clicks.",
+//     url: "https://www.wingie.com",
+//     previewImage: ProjectWingie,
+//     technologies: [
+//       "React",
+//       "Typescript",
+//       "React Bootstrap",
+//       "Firebase",
+//       "Express.js",
+//       "PostgreSQL",
+//       "Styled Components",
+//       "Redux",
+//     ],
+//   },
+//   {
+//     name: "Fiskil",
+//     description:
+//       "A platform for accessing real-time open banking and energy data to help you grow your business, backed with scalable back-end infrastructure.",
+//     url: "https://fiskil.com.au",
+//     previewImage: ProjectFiskil,
+//     technologies: [
+//       "React",
+//       "Next.js",
+//       "Typescript",
+//       "Tailwindcss",
+//       "Material UI",
+//       "Redux Toolkit",
+//       "React Query",
+//       "Express.js",
+//       "PostgreSQL",
+//       "Firebase",
+//       "AWS Amplify",
+//       "Cypress",
+//       "Storybook",
+//     ],
+//   },
+//   {
+//     name: "Pepehousing",
+//     description:
+//       "A platform for renting a flat or room in Poland. You may browse hundreds of verified deals, contact the vendor, and pay online in a simple and secure manner.",
+//     url: "https://pepehousing.com",
+//     previewImage: ProjectPepehousing,
+//     technologies: [
+//       "React",
+//       "Next.js",
+//       "Typescript",
+//       "Tailwindcss",
+//       "Redux Toolkit",
+//       "React Query",
+//       "Storybook",
+//     ],
+//   },
+// ];
+
 export const PROJECTS = [
   {
-    name: 'Wingie',
+    name: "MediCare Hub",
     description:
-      'A platform for comparing and finding affordable flights, as well as booking and purchasing tickets safely and easily in a few simple clicks.',
-    url: 'https://www.wingie.com',
-    previewImage: ProjectWingie,
+      "A full-stack clinic management platform that enables online appointment booking, patient management, and doctor consultations. The system includes secure authentication, role-based access control, and an admin dashboard for managing users, appointments, and content.",
+    url: "https://clinic-frontend-me4t.onrender.com/",
+    previewImage: ProjectMediCareHub,
     technologies: [
-      'React',
-      'Typescript',
-      'React Bootstrap',
-      'Firebase',
-      'Express.js',
-      'PostgreSQL',
-      'Styled Components',
-      'Redux',
+      "React",
+      "JavaScript",
+      "Tailwind CSS",
+      "Redux Toolkit",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "JWT Authentication",
+      "OTP Verification",
+      "Cloudinary",
+      "Postman",
+      "Render",
+      "Vercel",
     ],
   },
   {
-    name: 'Fiskil',
+    name: "TravelNest",
     description:
-      'A platform for accessing real-time open banking and energy data to help you grow your business, backed with scalable back-end infrastructure.',
-    url: 'https://fiskil.com.au',
-    previewImage: ProjectFiskil,
+      "A hotel search and booking web application that allows users to explore hotels, view details, and manage bookings. Features include user authentication, responsive UI, location-based search, filtering, and secure API integration for seamless travel planning.",
+    url: "https://travelnest-82at.onrender.com/",
+    previewImage: ProjectTravelNest,
     technologies: [
-      'React',
-      'Next.js',
-      'Typescript',
-      'Tailwindcss',
-      'Material UI',
-      'Redux Toolkit',
-      'React Query',
-      'Express.js',
-      'PostgreSQL',
-      'Firebase',
-      'AWS Amplify',
-      'Cypress',
-      'Storybook',
+      "React",
+      "JavaScript",
+      "Tailwind CSS",
+      "Redux Toolkit",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "REST APIs",
+      "JWT Authentication",
+      "Pagination",
+      "Filters",
+      "Postman",
+      "Render",
     ],
   },
   {
-    name: 'Pepehousing',
+    name: "Blog App",
     description:
-      'A platform for renting a flat or room in Poland. You may browse hundreds of verified deals, contact the vendor, and pay online in a simple and secure manner.',
-    url: 'https://pepehousing.com',
-    previewImage: ProjectPepehousing,
+      "A responsive blogging application that allows users to create, edit, and manage posts with secure authentication. Features include real-time content updates, pagination, filtering, and efficient global state management for a smooth user experience.",
+    url: "",
+    // previewImage: ProjectBlogApp,
     technologies: [
-      'React',
-      'Next.js',
-      'Typescript',
-      'Tailwindcss',
-      'Redux Toolkit',
-      'React Query',
-      'Storybook',
+      "React",
+      "JavaScript",
+      "Tailwind CSS",
+      "Redux Toolkit",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "JWT Authentication",
+      "Pagination",
+      "Filters",
+      "Firebase",
+      "Postman",
     ],
   },
 ];
@@ -277,29 +455,27 @@ export const PROJECTS = [
 // Testimonials
 export const TESTIMONIALS = [
   {
-    personName: 'Krisztian Gyuris',
+    personName: "Krisztian Gyuris",
     personAvatar: AvatarKrisztian,
-    title: 'Founder - inboxgenie.io',
+    title: "Founder - inboxgenie.io",
     testimonial:
-      'Job well done! I am really impressed. He is very very good at what he does:) I would recommend Sagar and will rehire in the future for Frontend development.',
+      "Job well done! I am really impressed. He is very very good at what he does:) I would recommend Sagar and will rehire in the future for Frontend development.",
   },
   {
-    personName: 'Eugen Esanu',
+    personName: "Eugen Esanu",
     personAvatar: AvatarEugen,
-    title: 'Founder - shosho.design',
+    title: "Founder - shosho.design",
     testimonial:
-      'Great guy, highly recommended for any COMPLEX front-end development job! His skills are top-notch and he will be an amazing addition to any team.',
+      "Great guy, highly recommended for any COMPLEX front-end development job! His skills are top-notch and he will be an amazing addition to any team.",
   },
   {
-    personName: 'Joe Matkin',
+    personName: "Joe Matkin",
     personAvatar: AvatarDummy,
-    title: 'Freelancer',
+    title: "Freelancer",
     testimonial:
-      'Sagar was extremely easy and pleasant to work with and he truly cares about the project being a success. Sagar has a high level of knowledge and was able to work on my MERN stack application without any issues.',
+      "Sagar was extremely easy and pleasant to work with and he truly cares about the project being a success. Sagar has a high level of knowledge and was able to work on my MERN stack application without any issues.",
   },
 ];
-
-
 
 // import { Github, Twitter, Figma } from 'lucide-react';
 
